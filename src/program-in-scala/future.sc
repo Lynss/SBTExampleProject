@@ -65,7 +65,9 @@ val m = j.collect {
 m.value
 
 val n = Future {
-  1 / 0
+  Future{
+    1 / 0
+  }
 }
 n.value
 n.failed

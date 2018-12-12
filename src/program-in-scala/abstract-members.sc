@@ -88,7 +88,7 @@ val b = new Cow
 a.eat(new b.SuitableFood)
 
 class Outer {
-
+  Outer=>
   class Inner
 
 }
